@@ -34,7 +34,7 @@ def find_the_cheese(array)# code an argument here
       return cheese.push(thing)
     end
     if cheese.length > 0
-      return cheese[0]
+      return cheese[0].join
     else 
       return nil
     end
