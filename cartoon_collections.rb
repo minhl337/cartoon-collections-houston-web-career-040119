@@ -31,10 +31,10 @@ def find_the_cheese(array)# code an argument here
   cheese_types.each do |thing|
     cheese=[]
     if array.include?(thing)
-      return cheese.push(thing)
+      cheese.push(thing)
     end
     if cheese.length > 0
-      return cheese[0].join
+      return cheese[0]
     else 
       return nil
     end
