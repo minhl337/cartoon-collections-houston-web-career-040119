@@ -1,7 +1,9 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
+  counter=1
   array.collect do |dwarf|
-    puts dwarf
+    puts counter. dwarf
+    counter+=
   end
 end
 
