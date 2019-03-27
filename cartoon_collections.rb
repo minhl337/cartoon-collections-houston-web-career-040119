@@ -29,12 +29,12 @@ def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   cheese_types.each do |thing|
-    exits=""
+    cheese=[]
     if array.include?(thing)
-      return exits=thing
+      return cheese.push(thing)
     end
-    if exits.length > 0
-      return exits
+    if cheese.length > 0
+      return cheese[0]
     else 
       return nil
     end
