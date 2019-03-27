@@ -34,6 +34,11 @@ def find_the_cheese(array)# code an argument here
     end
   end
   
+  if thing
+    return thing
+  else 
+    return NIL
+  end
   
   
   
