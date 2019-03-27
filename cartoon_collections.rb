@@ -33,14 +33,14 @@ def find_the_cheese(array)# code an argument here
     if array.include?(thing)
       cheese.push(thing)
     end
-    if cheese.length > 0
+
+  end
+  
+
+      if cheese.length > 0
       return cheese[0]
     else 
       return nil
     end
-  end
-  
-
-  
   
 end
