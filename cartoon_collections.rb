@@ -32,6 +32,7 @@ cheese_types.each do |thing|
   if array.include?(thing)
     cheese.push(thing)
   end
+  end
 
 if cheese.length >0
   return cheese[0]
